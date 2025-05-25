@@ -13,4 +13,9 @@ export class MessagesResolver {
   messages() {
     return this.messagesThatReallyShouldBeInADb;
   }
+
+  @Query()
+  thankYou() {
+    return 'ありがとう';
+  }
 }

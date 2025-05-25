@@ -5,6 +5,7 @@ type Message {
 
 type Query {
   messages: [Message]!
+  thankYou: String!
 }
 
 type Mutation {
